@@ -5,6 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@fontsource/archivo':
+    specifier: ^5.0.18
+    version: 5.0.18
+  '@fontsource/playfair-display':
+    specifier: ^5.0.24
+    version: 5.0.24
   react:
     specifier: ^18.2.0
     version: 18.3.1
@@ -303,6 +309,14 @@ packages:
     resolution: {integrity: sha512-Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
+
+  /@fontsource/archivo@5.0.18:
+    resolution: {integrity: sha512-BS8GI/RV7j54TCDtu7YVla4wrB1b9Ntv16YKWXIECOMPSgv0fkXMbW6W2M7xcpxDj7P4pdafQvNU45zVdaak7Q==}
+    dev: false
+
+  /@fontsource/playfair-display@5.0.24:
+    resolution: {integrity: sha512-r+h+PWl8R4dIQ5FikbwUGBF/DPsozH7YcfCxEcUm9SthLCcdKT53KH7iNGhF8RTCV325dyu/JjrA3G3JPUl5hQ==}
+    dev: false
 
   /@humanwhocodes/config-array@0.11.14:
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
